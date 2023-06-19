@@ -1,0 +1,34 @@
+{% include "header.html" %}
+
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('{{ current_user.profile_image }}')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+          <h1>{{ current_user.name }}'s Profile</h1>
+          <h2 class="subheading">{{ current_user.bio }}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Profile Content -->
+<section class="profile-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="profile-details">
+          <h2>Profile Details</h2>
+          <p><strong>Email:</strong> {{ current_user.email }}</p>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "footer.html" %}
