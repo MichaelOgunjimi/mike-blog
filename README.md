@@ -83,5 +83,5 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 ## Contact
 
-For any questions or inquiries, please contact me at your-email@example.com.
+For any questions or inquiries, please contact me at michael_ogunjimi@yahoo.com.
 
